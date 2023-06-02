@@ -1,0 +1,30 @@
+Ping Pong Game
+Ping Pong is a classic two-player game where each player controls a paddle to hit the ball and prevent it from reaching their side of the screen. The objective is to score points by making the ball pass the opponent's paddle.
+
+Game Controls
+Player 1 (Left Paddle):
+
+Move Up: Press the "W" key
+Move Down: Press the "S" key
+Player 2 (Right Paddle):
+
+Move Up: Press the Up arrow key
+Move Down: Press the Down arrow key
+Game Rules
+The game starts with the ball in the center of the screen, and the players' paddles positioned on each side.
+Players can move their paddles up and down to hit the ball.
+The ball moves continuously, bouncing off the paddles and the top and bottom borders of the screen.
+If the ball reaches the left or right border, the respective player on that side scores a point, and the ball is reset to the center.
+The game continues until a player reaches the winning score (determined by you) or until the game is manually stopped.
+The score is displayed at the top of the screen, showing the number of points for each player.
+Code Structure
+The code is written in Python and uses the Turtle module for graphics.
+The game window is initialized, and the necessary components, including the paddles, ball, and score display, are created.
+Event listeners are set up to capture keyboard inputs and move the paddles accordingly.
+The main game loop continuously updates the screen, moves the ball, checks for collisions, and updates the score accordingly.
+Customization
+You can customize the game by modifying various parameters such as the window size, paddle speed, ball speed, colors, and fonts.
+Additionally, you can add more features to the game, such as sound effects, levels, or power-ups, based on your preferences and programming skills.
+Enjoy playing Ping Pong!
+
+Please note that this documentation provides a basic overview of the game. Depending on your specific needs and requirements, you may want to expand it further or include additional details.
