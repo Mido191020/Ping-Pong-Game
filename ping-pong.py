@@ -39,7 +39,7 @@ score.color("white")
 score.penup()
 score.hideturtle()
 score.goto(0,260)
-score.write("Player 1: 0  Player 2: 0", align="center", font=("Arial", 28, "bold"))
+score.write("Player 1: 0 player 2: 0",align="center",font=("Courier",24,"normal"))
 #functions
 #madrab1
 def madrab1_up():
@@ -83,13 +83,13 @@ while True:
     ball.dx *=-1
     score1 +=1
     score.clear()
-    score.write("Player 1: {} player 2:  {}".format(score1,score2),align="center",font=("Arial", 28, "bold"))
+    score.write("Player 1: {} player 2:  {}".format(score1,score2),align="center",font=("Courier",24,"normal"))
   if ball.xcor()<-390:#if ball is at  left broder
     ball.goto(0,0)
     ball.dx *=-1
     score2 +=1
     score.clear()
-    score.write("Player 1: 0 player 2: 0",align="center",font=("Arial", 28, "bold"))
+    score.write("Player 1: {} player 2:  {}".format(score1,score2),align="center",font=("Courier",24,"normal"))
    # Hit madrab and ball
   #if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < madrab2.ycor() + 50 and ball.ycor() > madrab2.ycor() - 50):
     #ball.setx(340)
